@@ -5,13 +5,19 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import ru.kmept.kmept.antonchik.AntonchikActivity
+import ru.kmept.kmept.antonchik.PargevClas
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
-
+    fun onPargevClick(view:View)
+    {
+        val intent = Intent(MainActivity@this, PargevClas::class.java)
+        startActivity(intent)
+    }
     fun onAntonchikClick(view: View) {
         val intent = Intent(MainActivity@this, AntonchikActivity::class.java)
         startActivity(intent)
