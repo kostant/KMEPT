@@ -22,7 +22,9 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".antonchik.Slavesnov"/>
         <activity android:name=".antonchik.AntonchikActivity"/>
+
     </application>
 
 </manifest>
