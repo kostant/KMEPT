@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import ru.kmept.kmept.antonchik.AntonchikActivity
+import ru.kmept.kmept.antonchik.PrudnikovActivity
 import ru.kmept.kmept.ostrikov.OstrikovActivity
 import ru.kmept.kmept.antonchik.PargevClas
 
@@ -23,6 +24,11 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    fun onPrudnikovClick(view: View) {
+        val intent = Intent(MainActivity@this, PrudnikovActivity::class.java)
+        startActivity(intent)
+    }
+    
     fun onOstrikovClick(view: View) {
         val intent = Intent(MainActivity@this, OstrikovActivity::class.java)
         startActivity(intent)
