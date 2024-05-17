@@ -17,10 +17,38 @@
             android:onClick="onAntonchikClick"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
+        <Button
+            android:text="Тян"
+            android:onClick="onTyanClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="Прудников"
+            android:onClick="onPrudnikovClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="Остриков"
+            android:onClick="onOstrikovClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onPargevClick"
+            android:text="Pargev" />
 
         <Button
             android:text="Солдатенко  Шекерханов"
             android:onClick="onShekerSoldClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="Slavesnov"
+            android:onClick="onSlavesnovClick"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
