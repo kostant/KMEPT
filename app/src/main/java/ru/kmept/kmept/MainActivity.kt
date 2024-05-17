@@ -16,4 +16,10 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(MainActivity@this, AntonchikActivity::class.java)
         startActivity(intent)
     }
+
+
+    fun onShekerSoldClick(view: View) {
+        val intent = Intent(MainActivity@this, ShekerSold::class.java)
+        startActivity(intent)
+    }
 }

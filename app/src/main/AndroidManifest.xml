@@ -23,6 +23,7 @@
         </activity>
 
         <activity android:name=".antonchik.AntonchikActivity"/>
+        <activity android:name=".ShekerSold"/>
     </application>
 
 </manifest>
