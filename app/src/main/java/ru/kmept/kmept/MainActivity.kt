@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import ru.kmept.kmept.antonchik.AntonchikActivity
+import ru.kmept.kmept.tyan.TyanActivity
 import ru.kmept.kmept.antonchik.PrudnikovActivity
 import ru.kmept.kmept.ostrikov.OstrikovActivity
 import ru.kmept.kmept.antonchik.PargevClas
@@ -21,6 +22,11 @@ class MainActivity : AppCompatActivity() {
     }
     fun onAntonchikClick(view: View) {
         val intent = Intent(MainActivity@this, AntonchikActivity::class.java)
+        startActivity(intent)
+    }
+    
+    fun onTyanClick(view: View) {
+        val intent = Intent(MainActivity@this, TyanActivity::class.java)
         startActivity(intent)
     }
 
