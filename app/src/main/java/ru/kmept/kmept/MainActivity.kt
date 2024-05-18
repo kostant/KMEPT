@@ -51,4 +51,9 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(MainActivity@this, ShekerSold::class.java)
         startActivity(intent)
     }
+    fun onClickPerminova(view:View)
+    {
+        val intent = Intent(MainActivity@this, perminovaActivity::class.java)
+        startActivity(intent)
+    }
 }
