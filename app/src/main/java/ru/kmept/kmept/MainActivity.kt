@@ -12,7 +12,11 @@ import ru.kmept.kmept.tyan.TyanActivity
 import ru.kmept.kmept.antonchik.PrudnikovActivity
 import ru.kmept.kmept.ostrikov.OstrikovActivity
 import ru.kmept.kmept.antonchik.PargevClas
+<<<<<< Byaluk
+import ru.kmept.kmept.tyan.RBClass
+
 import ru.kmept.kmept.semenpaket.semenjanclasick
+>>>>>> main
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -54,6 +58,10 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(MainActivity@this, ShekerSold::class.java)
         startActivity(intent)
     }
+<<<<<< Byaluk
+    fun onRBClick(view: View) {
+        val intent = Intent(MainActivity@this, RBClass::class.java)
+
     
     fun onMurzikovClick(view: View) {
         val intent = Intent(MainActivity@this, Mu::class.java)
@@ -82,6 +90,7 @@ class MainActivity : AppCompatActivity() {
     
     fun onlohovClick(view: View) {
         val intent = Intent(MainActivity@this, LohovActivity::class.java)
+>>>>>> main
         startActivity(intent)
     }
 }

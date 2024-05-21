@@ -34,11 +34,15 @@
         <activity android:name=".VinogradovActivity"/>
         <activity android:name=".antonchik.PargevClas"/>
         <activity android:name=".ostrikov.OstrikovActivity"/>
+<<<<<< Byaluk
+        <activity android:name=".tyan.RBClass"/>
+======
         <activity android:name=".antonchik.Koval"/>
         <activity android:name=".semenpaket.semenjanclasick"/>
         <activity android:name=".Kugushev">
 
         </activity>
+>>>>>> main
     </application>
 
 </manifest>
