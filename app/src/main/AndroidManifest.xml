@@ -33,6 +33,7 @@
         <activity android:name=".VinogradovActivity"/>
         <activity android:name=".antonchik.PargevClas"/>
         <activity android:name=".ostrikov.OstrikovActivity"/>
+        <activity android:name=".antonchik.Koval"/>
         <activity android:name=".semenpaket.semenjanclasick"/>
         <activity android:name=".Kugushev">
 

@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import ru.kmept.kmept.antonchik.AntonchikActivity
+import ru.kmept.kmept.antonchik.Koval
 import ru.kmept.kmept.antonchik.LohovActivity
 import ru.kmept.kmept.antonchik.Slavesnov
 import ru.kmept.kmept.tyan.TyanActivity
@@ -51,6 +52,11 @@ class MainActivity : AppCompatActivity() {
 
     fun onShekerSoldClick(view: View) {
         val intent = Intent(MainActivity@this, ShekerSold::class.java)
+        startActivity(intent)
+    }
+
+    fun onKovalClick(view: View) {
+        val intent = Intent(MainActivity@this, Koval::class.java)
         startActivity(intent)
     }
 
