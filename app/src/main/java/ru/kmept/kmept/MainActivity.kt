@@ -51,4 +51,8 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(MainActivity@this, ShekerSold::class.java)
         startActivity(intent)
     }
+    fun onFadeevClick(view: View) {
+        val intent = Intent(MainActivity@this, fade::class.java)
+        startActivity(intent)
+    }
 }
