@@ -60,6 +60,11 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    fun onVinogradovClick(view: View) {
+        val intent = Intent(MainActivity@this, VinogradovActivity::class.java)
+        startActivity(intent)
+    }
+
     fun onlapaClick(view: View) {
         val intent = Intent(MainActivity@this, semenjanclasick::class.java)
         startActivity(intent)
