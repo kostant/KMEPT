@@ -27,6 +27,7 @@
         <activity android:name=".ShekerSold"/>
         <activity android:name=".tyan.TyanActivity"/>
         <activity android:name=".antonchik.PrudnikovActivity"/>
+        <activity android:name=".antonchik.bekich"/>
         <activity android:name=".antonchik.PargevClas"></activity>
         <activity android:name=".ostrikov.OstrikovActivity"/>
     </application>
