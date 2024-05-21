@@ -51,4 +51,8 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(MainActivity@this, ShekerSold::class.java)
         startActivity(intent)
     }
+    fun onMurzikovClick(view: View) {
+        val intent = Intent(MainActivity@this, Mu::class.java)
+        startActivity(intent)
+    }
 }
