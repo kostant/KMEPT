@@ -56,6 +56,11 @@
             android:layout_height="wrap_content"
             android:text="Kugushev"
             android:onClick="onKugushevClick"/>
+        <Button
+            android:text="Лохов"
+            android:onClick="onlohovClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 
     </LinearLayout>
 

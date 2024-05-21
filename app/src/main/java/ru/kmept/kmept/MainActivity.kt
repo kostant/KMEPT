@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import ru.kmept.kmept.antonchik.AntonchikActivity
+import ru.kmept.kmept.antonchik.LohovActivity
 import ru.kmept.kmept.antonchik.Slavesnov
 import ru.kmept.kmept.tyan.TyanActivity
 import ru.kmept.kmept.antonchik.PrudnikovActivity
@@ -51,8 +52,14 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(MainActivity@this, ShekerSold::class.java)
         startActivity(intent)
     }
+    
     fun onKugushevClick(view: View) {
         val intent  = Intent(MainActivity@this, Kugushev::class.java)
+        startActivity(intent)
+    }
+    
+    fun onlohovClick(view: View) {
+        val intent = Intent(MainActivity@this, LohovActivity::class.java)
         startActivity(intent)
     }
 }
