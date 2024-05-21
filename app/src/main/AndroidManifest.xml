@@ -23,6 +23,7 @@
         </activity>
 
         <activity android:name=".antonchik.Slavesnov"/>
+        <activity android:name=".Mu"/>
         <activity android:name=".antonchik.LohovActivity"/>
         <activity android:name=".antonchik.AntonchikActivity"/>
         <activity android:name=".ShekerSold"/>
