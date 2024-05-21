@@ -84,4 +84,9 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(MainActivity@this, LohovActivity::class.java)
         startActivity(intent)
     }
+    fun onInsarClick(view: View) {
+        val intent = Intent(MainActivity@this, InsarActivity::class.java)
+        startActivity(intent)
+    }
+
 }

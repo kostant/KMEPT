@@ -36,7 +36,8 @@
         <activity android:name=".ostrikov.OstrikovActivity"/>
         <activity android:name=".antonchik.Koval"/>
         <activity android:name=".semenpaket.semenjanclasick"/>
-        <activity android:name=".Kugushev">
+        <activity android:name=".Kugushev"/>
+        <activity android:name=".InsarActivity">
 
         </activity>
     </application>
