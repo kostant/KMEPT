@@ -52,6 +52,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Kurepin"
+            android:text="Курепин" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Aliev"
+            android:text="Алиев" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Gasanov"
+            android:text="Гасанов" />
+
     </LinearLayout>
 
 </ScrollView>

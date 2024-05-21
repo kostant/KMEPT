@@ -10,6 +10,8 @@ import ru.kmept.kmept.tyan.TyanActivity
 import ru.kmept.kmept.antonchik.PrudnikovActivity
 import ru.kmept.kmept.ostrikov.OstrikovActivity
 import ru.kmept.kmept.antonchik.PargevClas
+import ru.kmept.kmept.tyan.Aliev
+import ru.kmept.kmept.tyan.Gasanov
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -49,6 +51,24 @@ class MainActivity : AppCompatActivity() {
 
     fun onShekerSoldClick(view: View) {
         val intent = Intent(MainActivity@this, ShekerSold::class.java)
+        startActivity(intent)
+    }
+
+    fun Kurepin(view:View)
+    {
+        val intent = Intent(MainActivity@this, Kurepin::class.java)
+        startActivity(intent)
+    }
+
+    fun Aliev (view:View)
+    {
+        val intent = Intent(MainActivity@this, Aliev::class.java)
+        startActivity(intent)
+    }
+
+    fun Gasanov(view:View)
+    {
+        val intent = Intent(MainActivity@this, Gasanov::class.java)
         startActivity(intent)
     }
 }

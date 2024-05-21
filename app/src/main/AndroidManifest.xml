@@ -29,6 +29,9 @@
         <activity android:name=".antonchik.PrudnikovActivity"/>
         <activity android:name=".antonchik.PargevClas"></activity>
         <activity android:name=".ostrikov.OstrikovActivity"/>
+        <activity android:name=".Kurepin"/>
+        <activity android:name=".tyan.Aliev"/>
+        <activity android:name=".tyan.Gasanov"/>
     </application>
 
 </manifest>
