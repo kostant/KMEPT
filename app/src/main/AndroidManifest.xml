@@ -30,6 +30,9 @@
         <activity android:name=".antonchik.PrudnikovActivity"/>
         <activity android:name=".antonchik.PargevClas"></activity>
         <activity android:name=".ostrikov.OstrikovActivity"/>
+        <activity android:name=".Kugushev">
+
+        </activity>
     </application>
 
 </manifest>

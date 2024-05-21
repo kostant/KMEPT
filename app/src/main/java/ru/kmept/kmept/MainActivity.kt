@@ -52,9 +52,14 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(MainActivity@this, ShekerSold::class.java)
         startActivity(intent)
     }
+    
+    fun onKugushevClick(view: View) {
+        val intent  = Intent(MainActivity@this, Kugushev::class.java)
+        startActivity(intent)
+    }
+    
     fun onlohovClick(view: View) {
         val intent = Intent(MainActivity@this, LohovActivity::class.java)
         startActivity(intent)
     }
-
 }
