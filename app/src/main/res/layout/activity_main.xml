@@ -22,6 +22,13 @@
             android:onClick="onTyanClick"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/onlapaClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onlapaClick"
+            android:text="lapitskiy" />
         <Button
             android:text="Прудников"
             android:onClick="onPrudnikovClick"
